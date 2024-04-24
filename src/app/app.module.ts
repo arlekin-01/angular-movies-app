@@ -11,6 +11,8 @@ import { SearchComponent } from './components/search/search.component';
 import { LoaderComponent } from './components/loader/loader.component';
 import { ModalComponent } from './components/modal/modal.component';
 import { FormsModule } from '@angular/forms';
+import { HomeComponent } from './components/home/home.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { FormsModule } from '@angular/forms';
     NotAuthorizedComponent,
     SearchComponent,
     LoaderComponent,
-    ModalComponent
+    ModalComponent,
+    HomeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
